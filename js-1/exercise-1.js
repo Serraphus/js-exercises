@@ -6,7 +6,9 @@ https://www.youtube.com/watch?v=N65RvNkZFGE&list=PLpc_YvcwbxaSn6jn0VaTcG8A0Grgs1
 */
 
 
-/* Number 100 sum */
+/* ================= */
+/* 1. Number 100 sum */
+/* ================= */
 
 const num100 = (numA, numB) => {
     if (numA === 100 || numB === 100 || (numA + numB === 100)) {
@@ -17,7 +19,9 @@ const num100 = (numA, numB) => {
 }
 
 
-/* Filename extension getter */
+/* ============================ */
+/* 2. Filename extension getter */
+/* ============================ */
 
 const getExtension = (filename) => {
     const nameOfFile = filename.split('.');
@@ -28,11 +32,14 @@ const getExtension = (filename) => {
 console.log(getExtension('file.jpeg'));
 
 
-/* Caesar Cipher */
+/* ================ */
+/* 3. Caesar Cipher */
+/* ================ */
+
 /*
 Not working yet - need to figure out how to return the 
 value pair from the cipher and use .map() maybe?
- */
+*/
 
 const cipher = {
     'a': 'b',
@@ -76,7 +83,9 @@ const encoder = (string) => {
 console.log(encoder('hello'));
 
 
-/* Get the current date */
+/* ======================= */
+/* 4. Get the current date */
+/* ======================= */
 
 const date = () => {
     const todayDate = new Date();
@@ -90,7 +99,9 @@ const date = () => {
 date();
 
 
-/* New! String */
+/* ============== */
+/* 5. New! String */
+/* ============== */
 
 const newString = (string) => console.log(`New! ${string}`);
 
